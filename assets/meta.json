@@ -1,0 +1,75 @@
+{
+  "features": [
+    "Time_spent_Alone",
+    "Stage_fear",
+    "Social_event_attendance",
+    "Going_outside",
+    "Drained_after_socializing",
+    "Friends_circle_size",
+    "Post_frequency"
+  ],
+  "ranges": {
+    "Time_spent_Alone": [
+      0,
+      11,
+      5
+    ],
+    "Stage_fear": [
+      0,
+      1,
+      0
+    ],
+    "Social_event_attendance": [
+      0,
+      10,
+      5
+    ],
+    "Going_outside": [
+      0,
+      7,
+      4
+    ],
+    "Drained_after_socializing": [
+      0,
+      1,
+      1
+    ],
+    "Friends_circle_size": [
+      0,
+      15,
+      7
+    ],
+    "Post_frequency": [
+      0,
+      10,
+      5
+    ]
+  },
+  "cv": {
+    "Logistic Regression": {
+      "accuracy": 0.9878904859685147,
+      "accuracy_std": 0.0017615994462156668,
+      "f1": 0.9879028460932637,
+      "roc_auc": 0.9994564904199464
+    },
+    "Random Forest": {
+      "accuracy": 0.9942519875743694,
+      "accuracy_std": 0.0019058463898262113,
+      "f1": 0.9942722833235529,
+      "roc_auc": 0.9999249840797662
+    },
+    "XGBoost": {
+      "accuracy": 0.9944579581951245,
+      "accuracy_std": 0.0012323866899638248,
+      "f1": 0.9944770006045189,
+      "roc_auc": 0.9999224654828414
+    }
+  },
+  "n_rows": 5000,
+  "n_unique_rows": 4872,
+  "class_share": {
+    "Introvert": 0.5004,
+    "Extrovert": 0.4996
+  },
+  "xgboost_version": "3.4.1"
+}
